@@ -1,0 +1,7 @@
+*.exe
+*.out
+*.test
+
+.env
+
+Thumbs.db
