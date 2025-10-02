@@ -70,4 +70,4 @@ Running with Docker
 * docker compose up -> this command will start two services: app(bookvault-api) and db(PostgreSQL)
 * to run tests inside the container you must open a shell inside the app container with the command -> docker compose exec app sh
 * to test services: cd tests/services -> go test -v
-* to test handlers cd tests/handlers -> go test -v
+* to test handlers: cd tests/handlers -> go test -v
