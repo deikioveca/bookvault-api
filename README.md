@@ -61,7 +61,7 @@ Running locally
 -
 * clone the repo
 * go mod download
-* Start PostgreSQL and ensure databases bookvault and bookvault_test exist.
+* start postgresql and ensure databases bookvault and bookvault_test exist.
 * change .env file according to your setup
 * go run main.go
 
