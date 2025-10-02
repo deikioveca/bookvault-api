@@ -45,3 +45,4 @@ Technologies Used
 * Go
 * GORM
 * PostgreSQL
+* Docker
