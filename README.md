@@ -46,3 +46,28 @@ Technologies Used
 * GORM
 * PostgreSQL
 * Docker
+
+Running Guide
+- 
+Prerequisites
+- 
+* Go 1.25+ installed (for local testing)
+
+* Docker & Docker Compose (for containerized setup)
+
+* PostgreSQL (for local setup)
+
+Running locally
+-
+* clone the repo
+* go mod download
+* Start PostgreSQL and ensure databases bookvault and bookvault_test exist.
+* change .env file according to your setup
+* go run main.go
+
+Running with Docker
+-
+* docker compose up -> this command will start two services: app(bookvault-api) and db(PostgreSQL)
+* to run tests inside the container you must open a shell inside the app container with the command -> docker compose exec app sh
+* to test services: cd tests/services -> go test -v
+* to test handlers cd tests/handlers -> go test -v
