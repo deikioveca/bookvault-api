@@ -51,11 +51,11 @@ Running Guide
 - 
 * Prerequisites
 
- * Go 1.25+ installed (for local testing)
+  * Go 1.25+ installed (for local testing)
 
- * Docker & Docker Compose (for containerized setup)
+  * Docker & Docker Compose (for containerized setup)
 
- * PostgreSQL (for local setup)
+  * PostgreSQL (for local setup)
 
 Running locally
 -
