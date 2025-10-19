@@ -49,13 +49,13 @@ Technologies Used
 
 Running Guide
 - 
-Prerequisites
-- 
-* Go 1.25+ installed (for local testing)
+* Prerequisites
 
-* Docker & Docker Compose (for containerized setup)
+ * Go 1.25+ installed (for local testing)
 
-* PostgreSQL (for local setup)
+ * Docker & Docker Compose (for containerized setup)
+
+ * PostgreSQL (for local setup)
 
 Running locally
 -
