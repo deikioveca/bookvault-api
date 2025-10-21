@@ -1,6 +1,6 @@
 BookVault API
 - 
-bookvault-api is a RESTful backend service for managing an online bookstore.
+BookVault-api is a RESTful backend service for managing an online bookstore.
 It provides functionality for user management, book catalog management, shopping cart operations, order processing, and book reviews.
 The API is designed to be modular, secure, and scalable, making it suitable for building a complete e-commerce platform for books.
 
